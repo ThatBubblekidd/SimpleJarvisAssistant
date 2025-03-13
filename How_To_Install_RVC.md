@@ -26,7 +26,7 @@ git clone https://github.com/RVC-Project/Retrieval-based-Voice-Conversion.git
 cd Retrieval-based-Voice-Conversion
 ```
 
-2. Download the "Move_To_RVC_Folder" and of course, Move the "Move_To_RVC_Folder" to Retrieval-based-Voice-Conversion folder then open the folder up and then move assests folder (Folder is in Assistant), RVC_requirements.txt, and force_cpu.py out of the folder and into Retrieval-based-Voice-Conversion
+2. Download the "Move_To_RVC_Folder" and of course, Move the "Move_To_RVC_Folder" to Retrieval-based-Voice-Conversion folder then open the folder up and then move assests folder (Folder is in Assistant), RVC_requirements.txt, and force_cpu.py out of the folder and into Retrieval-based-Voice-Conversion - (‼️DON'T DO THIS IF YOU HAVE ALREADY DONE IT FROM THE README.md‼️)
 
 ```bash
 git clone https://huggingface.co/Thatbubblekid/RVC_Necessities_For_Mac
