@@ -1,4 +1,4 @@
-#Jarvis AI Assistant
+# Jarvis AI Assistant
 
 A personal AI assistant with voice recognition, text input, speech synthesis, and Retrieval-based Voice Conversion (RVC) for enhanced speech quality.
 
@@ -15,7 +15,7 @@ FYI: This was all made by ChatGPT
 For Path managment, make sure to update the pathfile.py, it's very easy to understand, I left comments! :)
 
 
-💻 System Requirements
+## 💻 System Requirements
 
 Jarvis AI Assistant has been tested and runs smoothly on the following system:
 
@@ -33,7 +33,7 @@ Note: If you’re using a different OS, additional setup or modifications may be
 
 
 
-📂 RVC Setup Notes - IMPORTANT‼️
+## 📂 RVC Setup Notes - IMPORTANT‼️
 
 Make sure to have RVC Downloaded
 
@@ -43,7 +43,7 @@ FYI - Move the "Move_To_RVC_Folder" to Retrieval-based-Voice-Conversion folder t
 
 
 
-🔧 Setup Instructions
+## 🔧 Setup Instructions
 
 Install Pyenv (If Not Installed)
 
