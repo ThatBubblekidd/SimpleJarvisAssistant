@@ -1,0 +1,16 @@
+gpt4all
+pyttsx3
+requests
+tqdm
+scipy
+numpy
+pyqt5
+soundfile
+sounddevice
+torch
+librosa
+speechrecognition
+whisper
+click
+pyaudio
+git+https://github.com/RVC-Project/Retrieval-based-Voice-Conversion.git
