@@ -39,6 +39,11 @@ Make sure to have RVC Downloaded
 
 FYI - Move the "Move_To_RVC_Folder" to Retrieval-based-Voice-Conversion folder then open the folder up and then move assests folder (Folder is in Assistant), RVC_requirements.txt, and force_cpu.py out of the folder and into Retrieval-based-Voice-Conversion
 
+Here is the "Move_To_RVC_Folder"
+
+```bash
+git clone https://huggingface.co/Thatbubblekid/RVC_Necessities_For_Mac
+```
 
 
 
