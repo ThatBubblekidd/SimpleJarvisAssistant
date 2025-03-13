@@ -1,7 +1,7 @@
-Retrieval-based-Voice-Conversion
+# Retrieval-based-Voice-Conversion
 
 
-💻 System Requirements
+## 💻 System Requirements
 
 Retrieval-based-Voice-Conversion has been tested and runs smoothly on the following system:
 
@@ -37,7 +37,7 @@ brew install pyenv
 
 
 
-⚙️ Required Environment
+## ⚙️ Required Environment
 
 Before running/downloading dependencies for Jarvis AI Assistant and RVC, set up the correct environment.
 
