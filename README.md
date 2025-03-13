@@ -51,7 +51,7 @@ Ensure Pyenv is installed on your system:
 
 ```bash
 brew install pyenv
-
+```
 
 ⚙️ Required Environment
 
@@ -63,28 +63,29 @@ Run the following commands in your terminal:
 
 ```bash
 pyenv install 3.10.13
-
+```
 2. Run the environment in directory
 
 ```bash
 pyenv global 3.10.13
-
+```
 
 3. Install Project Dependencies
 
 ```bash
 pip install -r requirements.txt
-
+```
 4. Setting up The Chatbot
 
 ```bash
-brew install ollama ollama pull llama3
-
+brew install ollama
+ollama pull llama3
+```
 5. To run Assistant command
 
 ```bash
 python3 main.py
-
+```
 
 ✅ You’re all set!
 
