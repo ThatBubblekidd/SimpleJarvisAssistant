@@ -1,7 +1,7 @@
 import os
 
 # Base Assistant Folder
-YOURPATH = "/Users/micahmcduffie/Downloads"  # Change this if needed
+YOURPATH = "/Path/To/Directory/SimpleJarvisAssistant"  # Change this if needed
 
 ASSISTANT_FOLDER = os.path.join(YOURPATH, "Assistant")
 JARVISMAIN_FOLDER = os.path.join(ASSISTANT_FOLDER, "JarvisMain")
@@ -12,8 +12,8 @@ AUDIO_FILES_AND_STORAGE_FOLDER = os.path.join(ASSISTANT_FOLDER, "Audio_Files_and
 # Change RVC_MODEL_NAME to your models name
 RVC_MODEL_NAME = "Jarvis"
 
-# Change to your RVC directory
-YOURPATH_RVC = "/Users/micahmcduffie"
+# Change to your RVC directory. Also, Retrieval-based-Voice-Conversion does not go in the path below
+YOURPATH_RVC = "/Path"
 
 RVC_FOLDER = os.path.join(YOURPATH_RVC, "Retrieval-based-Voice-Conversion")
 RVC_HUBERT_PATH = os.path.join(RVC_FOLDER, "assets", "hubert", "hubert_base.pt")
