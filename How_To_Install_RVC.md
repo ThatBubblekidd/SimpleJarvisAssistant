@@ -26,7 +26,13 @@ git clone https://github.com/RVC-Project/Retrieval-based-Voice-Conversion.git
 cd Retrieval-based-Voice-Conversion
 ```
 
-2. Install Pyenv (If Not Installed)
+2. Download the "Move_To_RVC_Folder" and of course, Move the "Move_To_RVC_Folder" to Retrieval-based-Voice-Conversion folder then open the folder up and then move assests folder (Folder is in Assistant), RVC_requirements.txt, and force_cpu.py out of the folder and into Retrieval-based-Voice-Conversion
+
+```bash
+git clone https://huggingface.co/Thatbubblekid/RVC_Necessities_For_Mac
+```
+
+3. Install Pyenv (If Not Installed)
 
 Ensure Pyenv is installed on your system:
 
@@ -41,19 +47,18 @@ brew install pyenv
 
 Before running/downloading dependencies for Jarvis AI Assistant and RVC, set up the correct environment.
 
-3. Install python 3.10
+4. Install python 3.10
 
 Run the following commands in your terminal:
 
 ```bash
 pyenv install 3.10.13
 ```
-4. Run the environment in directory
+5. Run the environment in directory
 
 ```bash
 pyenv global 3.10.13
-```
-5. Move the "Move_To_RVC_Folder" to Retrieval-based-Voice-Conversion folder then open the folder up and then move assests folder (Folder is in Assistant), RVC_requirements.txt, and force_cpu.py out of the folder and into Retrieval-based-Voice-Conversion
+``` 
 
 6. Install Project Dependencies
 
@@ -61,7 +66,7 @@ pyenv global 3.10.13
 pip install -r requirements.txt
 ```
 
-7. Next is to run these
+7. Next is to run these - Make sure to input hubert_base.pt path which is in the assets folder you move to RVC
 
 ```bash
 export index_root=""
