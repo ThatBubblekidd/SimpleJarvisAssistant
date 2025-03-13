@@ -24,6 +24,7 @@ Note: If you’re using a different OS, additional setup or modifications may be
 ```bash
 git clone https://github.com/RVC-Project/Retrieval-based-Voice-Conversion.git
 cd Retrieval-based-Voice-Conversion
+```
 
 2. Install Pyenv (If Not Installed)
 
@@ -31,7 +32,7 @@ Ensure Pyenv is installed on your system:
 
 ```bash
 brew install pyenv
-
+```
 
 
 
@@ -46,26 +47,26 @@ Run the following commands in your terminal:
 
 ```bash
 pyenv install 3.10.13
-
+```
 4. Run the environment in directory
 
 ```bash
 pyenv global 3.10.13
-
+```
 5. Move the "Move_To_RVC_Folder" to Retrieval-based-Voice-Conversion folder then open the folder up and then move assests folder (Folder is in Assistant), RVC_requirements.txt, and force_cpu.py out of the folder and into Retrieval-based-Voice-Conversion
 
 6. Install Project Dependencies
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 7. Next is to run these
 
 ```bash
 export index_root=""
 export hubert_path="/path/to/hubert/directory/Retrieval-based-Voice-Conversion/assets/hubert/hubert_base.pt"
-
+```
 
 8. Test RVC
 
@@ -76,7 +77,7 @@ python /Path/to/Retrieval-based-Voice-Conversion/force_cpu.py infer \
         --outputPath "/path/for/output.wav" \
         --f0method pm \
         --protect 0.5
-
+```
 🚀 You now have RVC installed! If you haven't looked at the README.md (In Assistant folder), please do for next steps!
 
 
