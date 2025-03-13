@@ -1,7 +1,7 @@
 import os
 
-# Base Assistant Folder
-YOURPATH = "/Path/To/Directory/SimpleJarvisAssistant"  # Change this if needed
+# Base Assistant Folder, example: "/Users/johnlogan/Downloads" (Don't put "Assistant" folder here, just directory to it)
+YOURPATH = "/Path/To/Directory/SimpleJarvisAssistant" 
 
 ASSISTANT_FOLDER = os.path.join(YOURPATH, "Assistant")
 JARVISMAIN_FOLDER = os.path.join(ASSISTANT_FOLDER, "JarvisMain")
